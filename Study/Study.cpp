@@ -2,10 +2,19 @@
 //
 
 #include <iostream>
-
+#include "add.h"
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+
+	int x = 0;
+	int y = 0;
+	cout << "입력해주세요" << endl;
+	cin >> x;
+	cin >> y;
+
+	cout<< add(x, y);
+
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
